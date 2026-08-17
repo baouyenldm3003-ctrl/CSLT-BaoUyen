@@ -12,3 +12,4 @@ namespace CSLT_BaoUyen.Session02
         }
     }
 }
+Console.WriteLine("MINH TEN LA BAO UYEN");
