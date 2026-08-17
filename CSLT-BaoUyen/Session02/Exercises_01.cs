@@ -8,7 +8,7 @@ namespace CSLT_BaoUyen.Session02
     {
         public static void Main(string[] args)
         {
-
+            Console.WriteLine("XIn chao");
         }
     }
 }
