@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace CSLT_BaoUyen.Session02
+    global::System.Console.WriteLine( "XIN CHAO");
 {
     internal class Exercises_01
     {
