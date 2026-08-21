@@ -6,7 +6,7 @@ namespace CSLT_BaoUyen.Sesion_02
 {
     internal class Excercise___01
     {
-        public static void Main(string[] args)
+        public static void Main1(string[] args)
         {
             int number1 = 10, number2 = 20;
             //1.to Add / Sum Two Numbers.
