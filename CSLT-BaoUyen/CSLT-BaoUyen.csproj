@@ -9,7 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Session02\" />
+    <Compile Remove="Session02\**" />
+    <EmbeddedResource Remove="Session02\**" />
+    <None Remove="Session02\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Session 03\" />
   </ItemGroup>
 
 </Project>

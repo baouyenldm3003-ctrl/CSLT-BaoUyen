@@ -1,58 +1,56 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Drawing;
 using System.Text;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace CSLT_BaoUyen
+namespace CSLT_BaoUyen.Sesion_02
 {
-    internal class Exercise___01
+    internal class Excercise___01
     {
-        public static void Main (string[] args)
+        public static void Main(string[] args)
         {
             int number1 = 10, number2 = 20;
-         //1.to Add / Sum Two Numbers.
+            //1.to Add / Sum Two Numbers.
             int sum = number1 + number2;
             Console.WriteLine($"1. {number1}+{number2}={sum}");
 
-         //2.to Swap Values of Two Variables.
+            //2.to Swap Values of Two Variables.
             int temp = number1;
             number1 = number2;
             number2 = temp;
             Console.WriteLine($"2. After swap number1 ={number1}, number2 = {number2}");
 
-         //3.to Multiply two Floating Point Numbers
-            float f1 = 3.2f , f2 = 5.5f;
+            //3.to Multiply two Floating Point Numbers
+            float f1 = 3.2f, f2 = 5.5f;
             float f3 = f2 * f1;
-            Console.WriteLine($"3. {f2} + { f1} = { f3}");
+            Console.WriteLine($"3. {f2} + {f1} = {f3}");
 
-         //4.to convert feet to meter
+            //4.to convert feet to meter
             float feet = 2.2f;
             float meter = feet * 0.3048f;
-             Console.WriteLine($"4. {feet} feet = {meter} meter");
+            Console.WriteLine($"4. {feet} feet = {meter} meter");
 
-         //5.to convert Celsius to Fahrenheit and vice versa
+            //5.to convert Celsius to Fahrenheit and vice versa
             float celsius = 7.5f;
             float fahrenheit = celsius * (1.8f + 32);
             Console.WriteLine($"5. {celsius} °C = {fahrenheit} °F ");
 
-         //6.to find the Size of data types
+            //6.to find the Size of data types
             Console.WriteLine($"6. Size of double data type is {sizeof(double)} bytes");
             Console.WriteLine($"   Size of float data type is {sizeof(float)} bytes");
             Console.WriteLine($"   Size of int data type is {sizeof(int)} bytes");
             Console.WriteLine($"   Size of char data type is {sizeof(char)} bytes");
 
-         //7.to Print ASCII Value(tip: read character, print number of this char)
+            //7.to Print ASCII Value(tip: read character, print number of this char)
             Console.WriteLine("7. Enter a character :");
             int c = Console.Read();
             Console.WriteLine($"ASCII code of {(char)c} is {c}");
 
-         //8.to Calculate Area of Circle
+            //8.to Calculate Area of Circle
             float R = 4.5f;
             float areaC = (float)Math.PI * R * R;
             Console.WriteLine($"8.Area of circle with radius {R} = {areaC}");
 
-         //9.to Calculate Area of Square
+            //9.to Calculate Area of Square
             float side = 6.5f;
             float areaS = side * side;
             Console.WriteLine($"9.Area of square with side {side} = {areaS}");
@@ -72,3 +70,5 @@ namespace CSLT_BaoUyen
         }
     }
 }
+
+   
