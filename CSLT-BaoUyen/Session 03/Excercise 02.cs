@@ -454,7 +454,7 @@ namespace CSLT_BaoUyen.Session_03
             decimal giamGia = 0m;
             string tenGiamGia = "Giảm giá";
 
-            // Logic giảm giá
+          
             if (customer == CustomerType.Child || customer == CustomerType.Senior)
             {
                 giamGia = basePrice * 0.5m;
@@ -471,7 +471,7 @@ namespace CSLT_BaoUyen.Session_03
                 tenGiamGia = "Giảm giá Thứ 4 (20%)";
             }
 
-            // Phụ thu cuối tuần (Thứ 6, Thứ 7, Chủ Nhật)
+           
             decimal phuThu = 0m;
             if (day == DayOfWeek.Friday || day == DayOfWeek.Saturday || day == DayOfWeek.Sunday)
             {
@@ -480,7 +480,7 @@ namespace CSLT_BaoUyen.Session_03
 
             decimal tongTien = basePrice - giamGia + phuThu;
 
-            Console.WriteLine("--- OUTPUT ---");
+          
             Console.WriteLine($"Giá vé gốc: {basePrice:N0} VNĐ");
             Console.WriteLine($"{tenGiamGia}: -{giamGia:N0} VNĐ");
             Console.WriteLine($"Phụ thu cuối tuần: {phuThu:N0} VNĐ");
