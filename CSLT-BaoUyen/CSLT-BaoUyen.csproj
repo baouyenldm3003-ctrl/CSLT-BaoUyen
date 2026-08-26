@@ -14,4 +14,8 @@
     <None Remove="Session02\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Sesson 4\" />
+  </ItemGroup>
+
 </Project>
