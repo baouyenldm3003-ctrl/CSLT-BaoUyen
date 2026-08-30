@@ -15,7 +15,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Sesson 4\" />
+    <Compile Remove="Session 03\Exercise 02.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Session 03\Exercise 02.cs" />
   </ItemGroup>
 
 </Project>
