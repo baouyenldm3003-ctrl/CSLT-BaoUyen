@@ -487,7 +487,7 @@ namespace CSLT_BaoUyen.Session_03
             Console.WriteLine($"TỔNG TIỀN VÉ: {tongTien:N0} VNĐ");
         }
 
-        public static void Main3(string[] args)
+        public static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
             Bai_1();
