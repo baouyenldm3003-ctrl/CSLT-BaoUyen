@@ -14,6 +14,7 @@ namespace CSLT_BaoUyen.Session_05
                 Console.WriteLine($"Bảng nhân {i}");
                 for (int j = 1; j <= 10; j++)
                 {
+
                     Console.WriteLine($"{i}*{j}={i * j}");
                 }
             }
