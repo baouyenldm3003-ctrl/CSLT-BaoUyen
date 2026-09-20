@@ -6,7 +6,7 @@ namespace CSLT_BaoUyen.Session_05
 {
     internal class Exercise_01
     {
-        public static void Main(string[] argr)
+        public static void Main6(string[] argr)
         {
             Console.OutputEncoding = Encoding.UTF8;
             for (int i = 2; i <= 9; i++)
