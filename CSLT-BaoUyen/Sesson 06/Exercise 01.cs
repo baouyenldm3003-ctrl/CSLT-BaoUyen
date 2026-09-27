@@ -475,7 +475,7 @@ namespace CSLT_BaoUyen.Sesson_06
 
             return mangTu.Length;
         }
-        static void Main(string[] args)
+        static void Main7(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
             Bai_1();
