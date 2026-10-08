@@ -306,7 +306,7 @@ namespace CSLT_BaoUyen.Sesson_07
 
         static void BaiTapMaTran()
         {
-            Console.WriteLine("===== BÀI 3: MA TRẬN =====");
+            Console.WriteLine("===BÀI 3: MA TRẬN ===");
             Console.Write("Nhập số hàng N: ");
             int n = int.Parse(Console.ReadLine());
             Console.Write("Nhập số cột M: ");
@@ -351,7 +351,7 @@ namespace CSLT_BaoUyen.Sesson_07
                 Console.WriteLine("\n(Ma trận không vuông nên không có đường chéo chính/phụ)");
             }
         }
-        static void Main(string[] args)
+        static void Main10(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
             BaiTapMang();
