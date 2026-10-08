@@ -23,7 +23,7 @@ namespace CSLT_BaoUyen.Sesson_09
             Console.WriteLine("Chuỗi vừa nhập là: " + s);
         }
 
-    
+
         static void Bai2()
         {
             Console.WriteLine("Bài 2: Độ dài chuỗi ");
@@ -59,14 +59,14 @@ namespace CSLT_BaoUyen.Sesson_09
             Console.WriteLine();
         }
 
-     
+
         static void Bai5()
         {
             Console.WriteLine("Bài 5: Đếm số từ ");
             Console.Write("Nhập chuỗi: ");
             string s = Console.ReadLine() ?? "";
             int soTu = 0;
-            bool dangTrongTu = false; 
+            bool dangTrongTu = false;
 
             foreach (char c in s)
             {
@@ -74,19 +74,19 @@ namespace CSLT_BaoUyen.Sesson_09
                 {
                     if (!dangTrongTu)
                     {
-                        soTu++;          
+                        soTu++;
                         dangTrongTu = true;
                     }
                 }
                 else
                 {
-                    dangTrongTu = false;  
+                    dangTrongTu = false;
                 }
             }
             Console.WriteLine("Số từ trong chuỗi: " + soTu);
         }
 
-       
+
         static void Bai6()
         {
             Console.WriteLine("Bài 6: So sánh hai chuỗi");
@@ -99,7 +99,7 @@ namespace CSLT_BaoUyen.Sesson_09
 
             if (DoDai(s1) != DoDai(s2))
             {
-                giongNhau = false; 
+                giongNhau = false;
             }
             else
             {
@@ -133,7 +133,7 @@ namespace CSLT_BaoUyen.Sesson_09
                 else if (char.IsDigit(c))
                     chuSo++;
                 else
-                    dacBiet++; 
+                    dacBiet++;
             }
 
             Console.WriteLine("Số chữ cái: " + chuCai);
@@ -152,7 +152,7 @@ namespace CSLT_BaoUyen.Sesson_09
             {
                 if (char.IsLetter(c))
                 {
-                    char thuong = char.ToLower(c); 
+                    char thuong = char.ToLower(c);
                     if (thuong == 'a' || thuong == 'e' || thuong == 'i' ||
                         thuong == 'o' || thuong == 'u')
                     {
@@ -184,7 +184,7 @@ namespace CSLT_BaoUyen.Sesson_09
                 Console.WriteLine($"Chuỗi con \"{sub}\" KHÔNG có trong chuỗi chính.");
         }
 
-      
+
         static void Bai10()
         {
             Console.WriteLine("Bài 10: Vị trí chuỗi con ");
@@ -204,7 +204,7 @@ namespace CSLT_BaoUyen.Sesson_09
             }
         }
 
-     
+
         static void Bai11()
         {
             Console.WriteLine("Bài 11: Kiểm tra ký tự ");
@@ -217,7 +217,7 @@ namespace CSLT_BaoUyen.Sesson_09
                 return;
             }
 
-            char c = nhap[0]; 
+            char c = nhap[0];
 
             if (char.IsLetter(c))
             {
@@ -233,7 +233,7 @@ namespace CSLT_BaoUyen.Sesson_09
             }
         }
 
-      
+
         static void Bai12()
         {
             Console.WriteLine("Bài 12: Đếm số lần xuất hiện ");
@@ -253,14 +253,14 @@ namespace CSLT_BaoUyen.Sesson_09
             while (viTri != -1)
             {
                 dem++;
-              
+
                 viTri = s.IndexOf(sub, viTri + sub.Length);
             }
 
             Console.WriteLine($"Chuỗi con \"{sub}\" xuất hiện {dem} lần.");
         }
 
-       
+
         static void Bai13()
         {
             Console.WriteLine("Bài 13: Chèn chuỗi con ");
